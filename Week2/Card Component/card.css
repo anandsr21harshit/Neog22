@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-container{
+    border: 2px solid red;
+    margin: 15px;
+    padding: 15px;
+}
+.card{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px gray;
+    border-radius: 1rem;
+}
+img{
+    border-radius: 1rem 1rem 0 0;
+}
+
+header {
+    /* border: 2px solid green; */
+    margin: 5px;
+}
+
+header p {
+    font-size: 12px;
+}
+
+article{
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+footer{
+    /* border: 2px solid orange; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bi{
+    margin-left: 25px;
+}
+
