@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400&family=Roboto+Slab:wght@200&family=Work+Sans:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Work Sans', sans-serif; */
 }
 .card-container{
     border: 2px solid red;
     margin: 15px;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.card{
+.card, .basic{
     width: 400px;
     border: 1px solid black;
     display: flex;
@@ -42,7 +50,28 @@ footer{
     justify-content: space-between;
 }
 
+.btn-container button{
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    padding: 5px;
+}
+
+.btn-container button:hover{
+    background-color: #ECF0E8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .bi{
     margin-left: 25px;
+    padding: 5px;
+}
+
+.icons i:hover{
+    background-color:#ECF0E8 ;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
