@@ -23,6 +23,7 @@
     flex-direction: column;
     box-shadow: 4px 4px gray;
     border-radius: 1rem;
+    margin-bottom: 20px;
 }
 img{
     border-radius: 1rem 1rem 0 0;
@@ -73,5 +74,37 @@ footer{
     background-color:#ECF0E8 ;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Card 2 */
+.text-over img{
+    position: relative;
+}
+
+.text-over header{
+    position: absolute;
+    top:250px;
+    /* border: 2px solid black; */
+}
+
+/* Card 3 */
+
+.header{
+    border-radius: 0;
+}
+
+.header img{
+    order: 0;
+    border-radius: 0;
+}
+
+.header header{
+    order: -1;
+}
+
+
+/* card 5 */
+.card5-footer{
+    justify-content: flex-end;
 }
 
