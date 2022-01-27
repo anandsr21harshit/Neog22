@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 4rem auto;
+    width: 50rem;
+    box-shadow: 5px 4px yellowgreen;
+}
+
+.chips{
+    /* border: 2px solid saddlebrown; */
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243, 219, 189);
+    border-radius: 0.5rem;
+}
+
+.chip{
+    background-color: rgb(235, 228, 228);
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.delete-btn{
+    border-radius: 1rem;
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+    background:  rgb(109, 108, 108);
+    border: none;   
+}
+
+input {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;   
+}
+
